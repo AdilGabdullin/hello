@@ -13,4 +13,9 @@ class App
     {
         echo 'Yo' . PHP_EOL;
     }
+
+    public function version()
+    {
+        return '1.2';
+    }
 }
