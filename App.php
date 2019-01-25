@@ -1,7 +1,11 @@
 <?php
-/**
- * Created by PhpStorm.
- * User: adil
- * Date: 25.01.2019
- * Time: 20:47
- */
+
+namespace AdilGabdillin;
+
+class App
+{
+    public function sayHello()
+    {
+        echo 'Hello, World!' . PHP_EOL;
+    }
+}
