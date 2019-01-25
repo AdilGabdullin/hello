@@ -8,4 +8,9 @@ class App
     {
         echo 'Hello, World!' . PHP_EOL;
     }
+
+    public function sayYo()
+    {
+        echo 'Yo' . PHP_EOL;
+    }
 }
